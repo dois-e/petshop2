@@ -1,0 +1,104 @@
+
+header{
+    margin: 44px 0 144px 76px;
+}
+.link-header{
+    font-weight: 600;/* negrito */
+    font-size: 25px;/* tamanho da fonte */
+color: #989d9c;
+cursor: pointer;
+text-decoration: none;/* tirar a linha de baixo */
+margin-right: 23px;/* espaçamento externo para direita */
+}
+
+.button-header {
+    background-color: #5e2e26;
+    border-radius: 20.5px;
+    width: 162px;
+    height: 41px;
+    border: none; /* tirando a borda do botão */
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.button-header:hover{
+    background-color: #cccccc;
+    border-radius: 2px;
+
+
+}
+
+main{display: flex;}
+
+.fotoimg{
+    width: 568px;
+    height: 500px;
+    margin: 125px;
+    display:inline-block;
+
+}
+.fotoimg:hover{
+    filter: drop-shadow(0px 15px 4px #adff00);
+    transition: 1s;
+}
+section{
+
+    display: inline-block;
+    margin-left: 86px
+}
+
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 122px;
+    color: black;
+}
+
+h2{
+    
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 71px;
+        color: black;
+    
+}
+p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+.button-main{
+
+    background: #adff00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    font-size: 40px;
+    color: #000000;
+    cursor: pointer;
+    filter:drop-shadow(0px 4px 4px #000000);
+    font-weight: 700;
+    font-size: 28px;
+
+    color: #000000;
+    margin-bottom: 100px;
+    transition: 1s;
+    
+    
+}
+.button-main:hover{
+ background-color: #0400eb;
+ border-radius: 19px;
+ transition: 1s;
+ filter: drop-shadow(0px 4px 4px #2508c7);
+}
+
+
